@@ -1,0 +1,79 @@
+{
+  "" : {
+    "diagnostics" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/104-project-ch7-primary.dia",
+    "emit-module-dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/104-project-ch7-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/104-project-ch7-primary-emit-module.dia",
+    "pch" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/104-project-ch7-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/104-project-ch7-primary.swiftdeps"
+  },
+  "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/timothyterrance/Desktop/MD7/104-project-ch7/104-project-ch7/ContentView.swift" : {
+    "const-values" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/timothyterrance/Desktop/MD7/104-project-ch7/104-project-ch7/View/AllCategoriesView.swift" : {
+    "const-values" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/AllCategoriesView.swiftconstvalues",
+    "dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/AllCategoriesView.d",
+    "diagnostics" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/AllCategoriesView.dia",
+    "index-unit-output-path" : "/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/AllCategoriesView.o",
+    "llvm-bc" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/AllCategoriesView.bc",
+    "object" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/AllCategoriesView.o",
+    "swift-dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/AllCategoriesView.swiftdeps",
+    "swiftmodule" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/AllCategoriesView~partial.swiftmodule"
+  },
+  "/Users/timothyterrance/Desktop/MD7/104-project-ch7/104-project-ch7/View/BookAppointmentView.swift" : {
+    "const-values" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/BookAppointmentView.swiftconstvalues",
+    "dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/BookAppointmentView.d",
+    "diagnostics" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/BookAppointmentView.dia",
+    "index-unit-output-path" : "/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/BookAppointmentView.o",
+    "llvm-bc" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/BookAppointmentView.bc",
+    "object" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/BookAppointmentView.o",
+    "swift-dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/BookAppointmentView.swiftdeps",
+    "swiftmodule" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/BookAppointmentView~partial.swiftmodule"
+  },
+  "/Users/timothyterrance/Desktop/MD7/104-project-ch7/104-project-ch7/View/SpecialistView.swift" : {
+    "const-values" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/SpecialistView.swiftconstvalues",
+    "dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/SpecialistView.d",
+    "diagnostics" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/SpecialistView.dia",
+    "index-unit-output-path" : "/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/SpecialistView.o",
+    "llvm-bc" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/SpecialistView.bc",
+    "object" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/SpecialistView.o",
+    "swift-dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/SpecialistView.swiftdeps",
+    "swiftmodule" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/SpecialistView~partial.swiftmodule"
+  },
+  "/Users/timothyterrance/Desktop/MD7/104-project-ch7/104-project-ch7/View/StepsView.swift" : {
+    "const-values" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/StepsView.swiftconstvalues",
+    "dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/StepsView.d",
+    "diagnostics" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/StepsView.dia",
+    "index-unit-output-path" : "/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/StepsView.o",
+    "llvm-bc" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/StepsView.bc",
+    "object" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/StepsView.o",
+    "swift-dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/StepsView.swiftdeps",
+    "swiftmodule" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/StepsView~partial.swiftmodule"
+  },
+  "/Users/timothyterrance/Desktop/MD7/104-project-ch7/104-project-ch7/_04_project_ch7App.swift" : {
+    "const-values" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/_04_project_ch7App.swiftconstvalues",
+    "dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/_04_project_ch7App.d",
+    "diagnostics" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/_04_project_ch7App.dia",
+    "index-unit-output-path" : "/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/_04_project_ch7App.o",
+    "llvm-bc" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/_04_project_ch7App.bc",
+    "object" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/_04_project_ch7App.o",
+    "swift-dependencies" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/_04_project_ch7App.swiftdeps",
+    "swiftmodule" : "/Users/timothyterrance/Desktop/MD7/104-project-ch7/.deriveddata/Build/Intermediates.noindex/104-project-ch7.build/Debug-iphonesimulator/104-project-ch7.build/Objects-normal/x86_64/_04_project_ch7App~partial.swiftmodule"
+  }
+}

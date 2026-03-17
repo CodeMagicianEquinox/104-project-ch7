@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/timothyterrance/Desktop/MD7/104-project-ch7/104-project-ch7/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameAccent</string>
+			<key>relativePath</key>
+			<string>./Accent.colorset</string>
+			<key>swiftSymbol</key>
+			<string>accent</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/timothyterrance/Desktop/MD7/104-project-ch7/104-project-ch7/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameBackground</string>
+			<key>relativePath</key>
+			<string>./Background.colorset</string>
+			<key>swiftSymbol</key>
+			<string>background</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/timothyterrance/Desktop/MD7/104-project-ch7/104-project-ch7/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNamePrimary</string>
+			<key>relativePath</key>
+			<string>./Primary.colorset</string>
+			<key>swiftSymbol</key>
+			<string>primary</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/timothyterrance/Desktop/MD7/104-project-ch7/104-project-ch7/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameSurface</string>
+			<key>relativePath</key>
+			<string>./Surface.colorset</string>
+			<key>swiftSymbol</key>
+			<string>surface</string>
+		</dict>
+	</array>
+	<key>images</key>
+	<array/>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>
