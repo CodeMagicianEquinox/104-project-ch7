@@ -1,127 +1,114 @@
-//
-//  SpecialistView.swift
-//  104-project-ch7
-//
-//  Created by Timothy Terrance on 3/16/26.
-//
-
 import SwiftUI
 
 // Main screen
 struct SpecialistView: View {
+    
+    let specialistList: [Specialist] = [
+        Specialist(
+            name: "Name 1",
+            specialty: "Specialty 1",
+            minPrice: 299.99,
+            maxPrice: 599.99,
+            rating: 4.6,
+            image: "person.fill"
+        ),
+        Specialist(
+            name: "Name 2",
+            specialty: "Specialty 2",
+            minPrice: 299.99,
+            maxPrice: 599.99,
+            rating: 4.6,
+            image: "person.fill"
+        ),
+        Specialist(
+            name: "Name 3",
+            specialty: "Specialty 3",
+            minPrice: 299.99,
+            maxPrice: 599.99,
+            rating: 4.6,
+            image: "person.fill"
+        )
+    ]
+    
     var body: some View {
-        // Navigation Container for the screen
+        
         NavigationStack {
-            // Background Color
             ZStack {
                 Color("Primary")
                     .ignoresSafeArea()
-                
+
                 VStack(spacing: 20) {
-                    
-                    // MARK: -- Title + Search
+
+                    // MARK: - Title + Search
                     VStack(spacing: 20) {
                         Text("Find your \nBeauty Specialist")
                             .font(.largeTitle.bold())
-                            .foregroundStyle(Color.white)
+                            .foregroundStyle(.white)
                             .multilineTextAlignment(.center)
-                        
+
                         TextField("Search for ...", text: .constant(""))
                             .padding()
                             .background(Color.white)
                             .cornerRadius(20)
                     }
                     .padding(.horizontal, 40)
+
                     VStack(spacing: 20) {
-                        
-                    //MARK: - Content: All categories + Top Specialist
-                        
-                        // Categories
+
+                        // MARK: - Categories
                         VStack {
-                            HStack{
+                            HStack {
                                 Text("Categories")
                                     .font(.title2.bold())
-                                
+
                                 Spacer()
-                                
+
                                 NavigationLink(destination: AllCategoriesView()) {
                                     Text("See all")
                                         .font(.headline)
                                         .foregroundStyle(Color("Primary"))
-                                    
                                 }
                             }
-                            
-                            // Horizontal scroll of category cards
-                            ScrollView(.horizontal, showsIndicators: false){
-                                HStack(spacing: 20) {
-                                    
-                                    Rectangle()
-                                        .frame(width: 100, height: 100)
-                                    
-                                    Rectangle()
-                                        .frame(width: 100, height: 100)
-                                    
-                                    Rectangle()
-                                        .frame(width: 100, height: 100)
-                                    
-                                    Rectangle()
-                                        .frame(width: 100, height: 100)
-                                    
-                                    Rectangle()
-                                        .frame(width: 100, height: 100)
-                                    
-                                }
-                            }
-                        }
-                        .padding()
-                        
-                        // Top Specialist
-                        
-                        VStack(alignment: .leading, spacing: 16) {
-                            
-                                Text("Top Specialist")
-                                    .font(.title2.bold())
-                                
- 
-                                
-                            
-                            .padding(.horizontal)
-                            
-                            // Vertical scroll of specialist cards
-                            ScrollView(.vertical, showsIndicators: false) {
-                                VStack(spacing: 16) {
-                                    
-                                    Rectangle()
-                                        .foregroundStyle(Color.black)
-                                        .frame(maxWidth: .infinity)
-                                        .frame(height: 100)
-                                        .cornerRadius(12)
-                                    
-                                    Rectangle()
-                                        .foregroundStyle(Color.black)
-                                        .frame(maxWidth: .infinity)
-                                        .frame(height: 100)
-                                        .cornerRadius(12)
-                                    
-                                    Rectangle()
-                                        .foregroundStyle(Color.black)
-                                        .frame(maxWidth: .infinity)
-                                        .frame(height: 100)
-                                        .cornerRadius(12)
-                                    
+
+
+                            // Real category cards
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 40) {
+                                    CategoryCardView(icon: "eye", title: "Lashes")
+                                    CategoryCardView(icon: "wind", title: "Hair")
+                                    CategoryCardView(icon: "hand.raised", title: "Nails")
                                 }
                                 .padding(.horizontal)
                             }
+
+                            // MARK: - Top Specialist
+                            VStack(alignment: .leading, spacing: 16) {
+                                Text("Top Specialist")
+                                    .font(.title2.bold())
+                                    .padding(.horizontal)
+
+                                ScrollView(.vertical, showsIndicators: false) {
+                                    VStack(spacing: 16) {
+                                        
+                                    //SpecialistCardView()
+                                    ForEach(specialistList) { specialist in
+                                        SpecialistCardView(specialist: specialist)
+                                        }
+                                    }
+                                    }
+                                    .padding(.horizontal)
+                                    
+                                }
+                            }
                         }
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .background(Color("Surface"))
+                        .cornerRadius(30)
                     }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(Color("Surface"))
                 }
             }
-        } // END: NavigationStack
-    } // END: body
-} // END: SpecialistView
+        }
+    }
 
 #Preview {
     SpecialistView()

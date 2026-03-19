@@ -1,0 +1,16 @@
+# Xcode build output
+.deriveddata/
+DerivedData/
+build/
+
+# Xcode user data
+*.xcuserstate
+xcuserdata/
+
+# Logs and caches
+*.xcactivitylog
+build.db
+LogStoreManifest.plist
+ModuleCache/
+*.sdkstatcache
+Session.modulevalidation

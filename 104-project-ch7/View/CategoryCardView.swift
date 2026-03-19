@@ -8,33 +8,22 @@
 import SwiftUI
 
 struct CategoryCardView: View {
-    
-    var icon: String = "eye"
-    var label: String = "Lashes"
-    var color: Color = Color("Primary")
-    
-    var body: some View {
-        VStack(spacing: 10) {
-            
-            ZStack {
-                Circle()
-                    .foregroundStyle(color)
-                    .frame(width: 70, height: 70)
-                
-                Image(systemName: icon)
-                    .font(.title2)
-                    .foregroundStyle(Color.white)
-            }
-            
-            Text(label)
-                .font(.subheadline.bold())
-                .foregroundStyle(Color.primary)
-        }
-    }
-}
+    let icon: String
+    let title: String
 
-#Preview {
-    CategoryCardView()
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color("Surface"))
+    var body: some View {
+        VStack(spacing: 12) {
+            Image(systemName: icon)
+                .font(.system(size: 28))
+                .foregroundStyle(Color("Primary"))
+
+            Text(title)
+                .font(.headline)
+                .foregroundStyle(.black)
+        }
+        .frame(width: 100, height: 100)
+        .background(Color.white)
+        .cornerRadius(20)
+        .shadow(radius: 2)
+    }
 }
